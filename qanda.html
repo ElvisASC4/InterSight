@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>InterSight | Videos</title>
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="hover.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <link rel="stylesheet" href="qanda.css">
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyC4SpXUUj4N68j5GMnToBsix8cLk75GdWA",
+        authDomain: "demoday-78f07.firebaseapp.com",
+        databaseURL: "https://demoday-78f07.firebaseio.com",
+        projectId: "demoday-78f07",
+        storageBucket: "",
+        messagingSenderId: "559362672513"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script src="qanda.js"></script>
+  </head>
+  <body id="body">
+    <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <img id="logo" src="logo-intersight.png">
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a id="home" class="hvr-buzz tabs" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a  id="how2" class="hvr-buzz tabs" href="howto.html">How to</a>
+                        </li>
+                        <li>
+                            <a id="vids" class="hvr-buzz tabs" href="videos.html">Videos</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+        <h1 id="bigQ">Q</h1>
+        <h1 id="anda"> & A</h1>
+        <h2 id="question">Where do you see yourself in 5 years?</h2>
+        <button type="button" onclick="show()" id="answerButton" class="hvr-bubble-float-left"><marquee width=120 behavior="scroll" DIRECTION=RIGHT SCROLLDELAY=0>Answer</marquee></button>
+        <div class="actualComments">
+        </div>
+        <img id="memeImage" src="https://blog-biginterview.netdna-ssl.com/wp-content/uploads/2013-2-19-zombie.jpg" style="width:300px;height:600px;">
+    <div class="userContainer" id="answerText">
+            <form>
+                <div class="textContainer">
+                    <div>
+                        <p class="text text2">Name:</p><input class="comment" id="name" type="text">
+                    </div>
+                    <div>
+                        <p class="text text2">Response:</p><input class="comment" id="comment" type="text">
+                    </div>
+                </div>
+                <div class="commentButton">
+                    <input id="answerInputButton" class="hvr-buzz" type="reset" onclick="AnswerButtonRespond(this)" value="Respond">
+                </div>
+            </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+.pics{
+width: 700px;
+height: 300px;
+}
+
+body {
+  padding-top: 54px;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.pagination {
+  margin-bottom: 15px;
+}
+
+p{
+    font-size: 20px;
+    position: absolute;
+    left: 90px;
+}
+/*nav >>>>>>>>*/
+#home{
+    margin-left: 30px;
+    color: gold;
+}
+
+#vids{
+    margin-left: 30px;
+    color: gold;
+}
+
+#QandA{
+    margin-left: 30px;
+    color: gold;
+}
+
+#home:hover{
+    background-color: black;
+}
+#vids:hover{
+    background-color: black;
+}
+#QandA:hover{
+    background-color: black;
+}
+
+#logo{
+    display: block;
+    position: absolute;
+    left: 30px;
+}
+
+#body{
+    background: black;
+}
+
+.titles{
+    color: gold;
+    margin-top: 0px;
+    margin-left: 80px; 
+}
+
+.desc{
+    color: white;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+body{
+    font-family:  'Allerta Stencil', sans-serif;
+}
+
+#b4desc{
+    font-size: 134%;
+}
+
+.tabs{
+    font-size: 22px;
+}

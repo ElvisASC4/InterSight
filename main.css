@@ -1,0 +1,490 @@
+html,
+body { 
+    height: 100%;
+}
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.img-portfolio {
+    margin-bottom: 30px;
+}
+.img-hover:hover {
+    opacity: 0.8;
+}
+/* Home Page Carousel */
+header.carousel {
+    height: 50%;
+}
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+/* 404 Page Styles */
+.error-404 {
+    font-size: 100px;
+}
+/* Pricing Page Styles */
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+.period {
+    display: block;
+    font-style: italic;
+}
+/* Footer Styles */
+footer {
+    margin: 50px 0;
+}
+/* Responsive Styles */
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+/*Nav bar >>>>>>>>>>>>>>>>*/
+#how2{
+    margin-left: 30px;
+    color: gold;
+}
+#vids{
+    margin-left: 30px;
+    color: gold;
+}
+#QandA{
+    margin-left: 30px;
+    color: gold;
+}
+#how2:hover{
+    background-color: black;
+}
+#vids:hover{
+    background-color: black;
+}
+#QandA:hover{
+    background-color: black;
+}
+/*nav >>>>>>>>>>>*/
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container2 {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+    text-align: center;
+    width: 500px;
+    border: 2px solid black;
+}
+/* Clear floats after containers */
+.container2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container2 img {
+    float: none;
+    margin-right: 20px;
+    border-radius: 50%;
+    
+}
+/* Increase the font-size of a span element */
+.container2 span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+#profile1{
+    height:80px;
+    border: 2px solid black;
+}
+#profile2{
+    height:80px;
+    border: 2px solid black;
+}
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .container2 {
+    text-align: center;
+  }
+  .container2 img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+/*contact cards>>>>>>>>>>>*/
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    position: absolute;
+    left: 640px;
+    bottom: -390px;
+    border: 2px solid gold;
+}
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    position: absolute;
+    left: 1000px;
+    bottom: -390px;
+    border: 2px solid gold;
+}
+.container3 {
+    padding: 0 16px;
+    padding-bottom: 8px;
+    background: white;
+}
+.container4 {
+    padding: 0 16px;
+    padding-bottom: 8px;
+    background: white;
+}
+.title {
+    color: grey;
+    font-size: 18px;
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+#contactbutton1{
+    color: white;
+}
+#contactbutton2{
+    color: white;
+}
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+button:hover, a:hover {
+    opacity: 0.7;
+}
+#body{
+    background: black;
+}
+.name{
+    margin-top: 0;
+}
+header.carousel .fill {
+    width: 100%;
+    height: 175%;
+    background-position: center;
+    background-size: cover;
+}
+.caption{
+    color: black;
+}
+#secondCap{
+    color: gold;
+    text-shadow: 1px 1px black;
+}
+#copyright{
+    color: white;
+}
+#logo{
+    display: block;
+    position: absolute;
+    left: 30px;
+}
+#mission{
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+#missionTitle{
+    color: gold;
+    margin-left: 30px; 
+    font-size: 400%;
+}
+#space{
+    margin-bottom: 50px;
+}
+
+body{
+    font-family:  'Allerta Stencil', sans-serif;
+}
+
+#boi{
+    font-size:35px;
+}
+html,
+body { 
+    height: 100%;
+}
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.img-portfolio {
+    margin-bottom: 30px;
+}
+.img-hover:hover {
+    opacity: 0.8;
+}
+/* Home Page Carousel */
+header.carousel {
+    height: 50%;
+}
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+/* 404 Page Styles */
+.error-404 {
+    font-size: 100px;
+}
+/* Pricing Page Styles */
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+.period {
+    display: block;
+    font-style: italic;
+}
+/* Footer Styles */
+footer {
+    margin: 50px 0;
+}
+/* Responsive Styles */
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+/*Nav bar >>>>>>>>>>>>>>>>*/
+#how2{
+    margin-left: 30px;
+    color: gold;
+}
+#vids{
+    margin-left: 30px;
+    color: gold;
+}
+#QandA{
+    margin-left: 30px;
+    color: gold;
+}
+#how2:hover{
+    background-color: black;
+}
+#vids:hover{
+    background-color: black;
+}
+#QandA:hover{
+    background-color: black;
+}
+/*nav >>>>>>>>>>>*/
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container2 {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+    text-align: center;
+    width: 500px;
+    border: 2px solid black;
+}
+/* Clear floats after containers */
+.container2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container2 img {
+    float: none;
+    margin-right: 20px;
+    border-radius: 50%;
+    
+}
+/* Increase the font-size of a span element */
+.container2 span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+#profile1{
+    height:80px;
+    border: 2px solid black;
+}
+#profile2{
+    height:80px;
+    border: 2px solid black;
+}
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .container2 {
+    text-align: center;
+  }
+  .container2 img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+/*contact cards>>>>>>>>>>>*/
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    position: absolute;
+    left: 640px;
+    bottom: -440px;
+    border: 2px solid gold;
+}
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    position: absolute;
+    left: 1000px;
+    bottom: -440px;
+    border: 2px solid gold;
+}
+.container3 {
+    padding: 0 16px;
+    padding-bottom: 8px;
+    background: white;
+}
+.container4 {
+    padding: 0 16px;
+    padding-bottom: 8px;
+    background: white;
+}
+.title {
+    color: grey;
+    font-size: 18px;
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+#contactbutton1{
+    color: white;
+}
+#contactbutton2{
+    color: white;
+}
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+button:hover, a:hover {
+    opacity: 0.7;
+}
+#body{
+    background: black;
+}
+.name{
+    margin-top: 0;
+}
+header.carousel .fill {
+    width: 100%;
+    height: 175%;
+    background-position: center;
+    background-size: cover;
+}
+.caption{
+    color: black;
+}
+#secondCap{
+    color: gold;
+    text-shadow: 1px 1px black;
+}
+#copyright{
+    color: white;
+}
+#logo{
+    display: block;
+    position: absolute;
+    left: 30px;
+}
+#mission{
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+#missionTitle{
+    color: gold;
+    margin-left: 30px; 
+    font-size: 400%;
+}
+#space{
+    margin-bottom: 50px;
+}
+
+body{
+    font-family:  'Allerta Stencil', sans-serif;
+}
+
+#boi{
+    font-size:35px;
+}
